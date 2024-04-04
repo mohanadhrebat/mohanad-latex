@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\title{\textcolor{blue}{\underline{HomeWork}} }
+\author{\textcolor{olive}{\uppercase{mohanad hrebat}}}
+\date{\textcolor{magenta}{\textit{April 4, 2024}}}
+
+\begin{document}
+\definecolor{mohanad}{RGB}{255, 255, 204} % احضرت الاحداثيات من الانترنت
+\definecolor{lighblue}{RGB}{0, 128, 255}
+\pagecolor{mohanad}
+\fancyfoot[C]{\textcolor{magenta}{Page \thepage}}
+\fancyhead[L]{\textcolor{blue}{Homework Assignment}}%اخذته من
+\maketitle
+
+\begin{abstract}
+  \textcolor{cyan}{This homework assignment covers various LaTeX commands and ele-
+ments. Your task is to replicate this document using LaTeX.}  
+\end{abstract}
+
+\tableofcontents
+
+\newpage
+
+\section{\textcolor{lighblue}{Introduction}}
+
+This is the introduction section of the homework assignment.
+
+\subsection{Objective}
+The objective of this assignment is to familiarize yourself with LaTeX syntax
+and commands.
+
+\section{Nested Lists}
+design your own nested list
+
+\subsection{Examples}
+\begin{enumerate}
+    \item item1
+     \begin{itemize}
+    \item item 1-1
+    \end{itemize}
+     \begin{enumerate}
+        \item item 1-2
+    \end{enumerate}
+\end{enumerate}
+
+\section{Tasks}
+\begin{enumerate}
+\item Create a LaTeX document with the provided title, author, and date in-
+formation.
+\item Add an abstract
+\item Include a table of contents.
+\item Use different font styles such as bold, italic, and underlined.
+\item Create nested lists using itemize and enumerate environments.
+\item Change page color and text color using the xcolor package.
+\item Use the fancyhdr package to customize headers and footers.
+\item Apply different line spacing using the setspace package.
+\end{enumerate}
+
+\begin{flushright}
+This text is right aligned.
+\end{flushright}
+\begin{center}
+  This text is centered.  
+\end{center}
+
+\subsection*{Conclusion}
+\addcontentsline{toc}{subsection}{Conclusion}
+
+This concludes the homework assignment.
+
+\section*{Acknowledgements}
+\addcontentsline{toc}{section}{Acknowledgements}
+I would like to thank everyone who contributed to this homework assignment.
+
+\section*{References}
+\addcontentsline{toc}{section}{References}
+[1] LaTeX Documentation
+
+\end{document}
