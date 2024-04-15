@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+
+\begin{document}
+\raggedright
+\section{iamges}
+\begin{figure}[h!]
+\centering
+\begin{subfigure}[b]{3cm}
+\includegraphics[width=3cm]{mido.jpg}
+\caption{figure 1}
+\end{subfigure}
+\begin{subfigure}[b]{3cm}
+\includegraphics[width=3cm]{mido.jpg}
+\caption{figure 2}
+\end{subfigure}
+\begin{subfigure}[b]{3cm}
+\includegraphics[width=3cm]{mido.jpg}
+\caption{figure 3}
+\end{subfigure}
+\caption{Multiple iamges}
+\end{figure}
+
+This section of the guide will introduce you to the commands that
+can help you towards formatting the body text in different ways. It
+includes text formatting i.e making texts bold, italic, adding com-
+ments, inserting lists( both ordered and unordered), and inserting
+figures and images into your LaTeX document.
+
+\section{table1}
+\begin{table}[h!]
+    \centering
+     \caption{table 1}
+    \begin{tabular}{|c |c| c|}
+    \hline
+  \multicolumn{3}{|c|}{\textbf{Student Scores}}\\
+    \hline
+ \multicolumn{1}{|c|}{\textbf{Name}} &
+\multicolumn{1}{c|}{\textbf{Math Score}}&
+\multicolumn{1}{|c|}{\textbf{Science Score}}\\
+    \hline
+    first & secound & third \\
+    \hline
+    firstcol & secoundcol & thirdcol \\
+    \hline
+    firstcol & secoundcol & thirdcol \\
+ \hline
+    \end{tabular}
+\end{table}
+This section of the guide will introduce you to the commands that
+can help you towards formatting the body text in different ways. It
+includes text formatting i.e making texts bold, italic, adding com-
+ments, inserting lists( both ordered and unordered), and inserting
+figures and images into your LaTeX document.
+
+\newpage
+\section{table2}
+\begin{table}[h!]
+     \caption{table 2}
+     \begin{center}
+    \begin{tabular}{|c |c|p{6cm}|}
+    \hline
+  \multicolumn{3}{|c|}{\textbf{Book Reviews}}\\
+    \hline
+ \multicolumn{1}{|c|}{\textbf{Book Title}} &
+\multicolumn{1}{c|}{\textbf{Rating (/10)}}&
+\multicolumn{1}{|c|}{\textbf{Review}}\\
+    \hline
+    ”The Catcher in the Rye” & 8.5 & A classic novel that still resonates with
+
+readers today. \\
+    \hline
+    ”The Great Gatsby” & 9.0 & A masterpiece of American literature
+that explores themes of love, wealth,
+and class. \\
+    \hline
+    ”1984” & 9.5 & A chilling dystopian novel that contin-
+ues to be relevant in today’s society. \\
+ \hline
+    \end{tabular}
+    \end{center}
+\end{table}
+This section of the guide will introduce you to the commands that
+can help you towards formatting the body text in different ways. It
+includes text formatting i.e making texts bold, italic, adding com-
+ments, inserting lists( both ordered and unordered), and inserting
+figures and images into your LaTeX document.
+\listoffigures
+\listoftables
+\newpage
+\tableofcontents
+\end{document}
